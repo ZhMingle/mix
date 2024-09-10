@@ -1,0 +1,14 @@
+.balance-board {
+  width: 300px;
+  height: 150px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 150px;
+  font-weight: bold;
+  transition: transform 0.1s ease-out; /* 调整动画的平滑度和持续时间 */
+  display: inline-block;
+  transform-origin: center; 
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3); /* 添加阴影以增强立体效果 */
+  border-radius: 10px; /* 圆角使得效果更柔和 */
+  perspective: 1000px; /* 增加3D透视效果 */
+}
